@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminhos da programação, Programação de Hardware</title>
+</head>
+<body>
+    <header>
+<table border="0">
+        <tr>
+          <th colspan="5"><h2>SUMÁRIO</h2></th>
+        </tr>
+        <tr align="center">
+            <td><a href="index.html">• Pagina inicial | </a></td>
+            <td><a href="DesenvolvimentoWeb.html">• Desenvolvimento Web | </a></td>
+            <td><a href="DesenvolvimentoMobile.html">• Desenvolvimento Mobile | </a></td>
+            <td><a href="CiênciadeDadoSInteligênciaArtificial.html">• Ciência de Dados e Inteligência Artificial | </a></td>
+            <td><a href="ProgramaçãoparaJogos.html">• Programação para Jogos | </a></td>
+        </tr>
+        <tr align="center">
+            <td><a href="SegurançadaInformação.html">• Segurança da Informação | </a></td>
+            <td><a href="AutomaçãoeDevOps.html">• Automação e DevOps | </a></td>
+            <td><a href="InternetdasCoisas.html">• Internet das Coisas (IoT) | </a></td>
+            <td><a href="ProgramaçãodeHardware.html">• Programação de Hardware | </a></td>
+            <td><a href="PROFISSÕES.html">• PROFISSÕES | </a></td>     
+</table>
+    </header>
+<hr>
+
+  <h1>Programação de Hardware</h1>
+    <p>Introdução aos paradigmas, plataformas e práticas para programar microcontroladores, SoCs e FPGA.</p>
+<hr>
+  <h2>Visão geral</h2>
+    <p>Programação de hardware refere-se ao desenvolvimento de software que interage diretamente com componentes eletrônicos — sensores, atuadores, barramentos e circuitos lógicos. Engloba desde firmware embarcado em microcontroladores até descrição de hardware em linguagens para FPGA.</p>
+<img src="imagens\168.jpg" height="300px" alt="circuitos">
+<hr>
+  <h2>Plataformas comuns</h2>
+    <ul>
+     <li>Microcontroladores (MCUs): ARM Cortex-M, AVR, PIC — programados em C/C++ ou Assembly.</li>
+     <li>Sistemas em chip (SoC): Raspberry Pi, BeagleBone — Linux embarcado, Python, C/C++.</li>
+     <li>FPGA: Xilinx, Intel/Altera — lógica descrita em VHDL ou Verilog.</li>
+     <li>MCU de baixo consumo: ESP32, nRF52 — conectividade Wi‑Fi/BLE e suporte a RTOS.</li>
+    </ul>
+<hr>
+  <h2>Conceitos importantes</h2>
+    <ol>
+     <li><strong>GPIO</strong>: controle direto de pinos para leitura/escrita digital.</li>
+     <li><strong>Interrupções</strong>: respostas imediatas a eventos externos sem polling constante.</li>
+     <li><strong>I²C, SPI, UART</strong>: protocolos de comunicação entre componentes.</li>
+     <li><strong>Timers</strong>: gerar delays, PWM e eventos periódicos com precisão.</li>
+     <li><strong>RTOS</strong>: sistemas operacionais em tempo real para tarefas concorrentes.</li>
+    </ol>
+<hr>
+  <h2>Boas práticas</h2>
+    <ul>
+     <li>Evite polling intensivo; prefira interrupções para eficiência energética.</li>
+     <li>Use abstrações (drivers) para separar hardware de lógica de aplicação.</li>
+     <li>Implemente proteção contra erros: watchdog timers e tratamento de falhas.</li>
+     <li>Versione firmware e mantenha cadeia de build reproduzível.</li>
+     <li>Documente interfaces elétricas e protocolos usados.</li>
+    </ul>
+<hr>
+  <h2>Depuração e ferramentas</h2>
+    <ul>
+     <li>Depuradores JTAG/SWD e analisadores lógicos para capturar sinais.</li>
+     <li>Osciloscópios para medição de formas de onda e temporizações.</li>
+     <li>Simuladores de HDL e ambientes de síntese para FPGAs.</li>
+     <li>Ferramentas de CI para firmware: builds automatizados e testes unitários/hardware-in-the-loop.</li>
+  </ul>
+<hr>
+  <h2>Considerações de segurança</h2>
+    <ul>
+     <li>Assine e verifique firmware para evitar execuções não autorizadas.</li>
+     <li>Implemente mecanismos de atualização segura (A/B, rollback).</li>
+     <li>Proteja interfaces de comunicação e segmente redes para dispositivos críticos.</li>
+    </ul>
+<hr>
+    <footer>
+        <a href="https://uniube.br/"><img src="imagens\logo_azul.svg" height="100px" alt="logo uniube"></a>
+        
+    </footer> 
+</body>
+</html>
